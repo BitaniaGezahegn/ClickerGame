@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  background: rgb(2,0,36);
+background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(46,46,49,1) 32%, rgba(59,150,169,1) 100%);
+  overflow: auto;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.container .coin{
+  width: 75vw;
+  position: relative;
+}
+
+.balance-rank{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container .balance{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 2.2rem;
+  color: #ddd;
+  font-family: Helvetica;
+  font-weight: 800;
+  gap: .8rem;
+}
+
+.container .balance img{
+  width: 50px;
+}
+
+.rank{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+  color: #ddd;
+  font-family: Helvetica;
+  font-weight: 800;
+  gap: .4rem;
+}
+
+.rank .trophy{
+  width: 25px;
+}
+
+.squad{
+  width: 80vw;
+  background-color: rgba(40, 40, 40, .55);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  color: #ddd;
+  font-family: Helvetica;
+  font-weight: 800;
+  gap: .4rem;
+  padding: .6rem;
+  border-radius: 10px;
+}
+
+.plus-one{
+  position: absolute;
+  color: #ddd;
+  font-family: Helvetica;
+  font-weight: 800;
+  font-size: 1.2rem;
+  z-index: 10;
+}
